@@ -6,44 +6,36 @@ export default function AboutPage() {
   return (
     <div className="bg-white dark:bg-zinc-950 min-h-screen">
       <Container>
-        <h1 className="my-4 mt-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-          About me
-        </h1>
-        <div className="grid grid-cols-3 relative">
-          <p className="text-xl mb-3 font-normal text-gray-200 dark:text-gray-300 col-span-3">
-            Hey there! I&apos;m Chingiz Mammadov, a seasoned software engineer
-            with six years of experience. I&apos;ve had the privilege of working
-            with prestigious companies like Nike, as well as government agencies
-            and banks. What truly excites me is crafting captivating user
-            interfaces enriched with beautiful animations. Throughout my career,
-            I&apos;ve tackled complex projects, delivering innovative solutions
-            that push boundaries.
-          </p>
-        </div>
+        <section className="mb-4">
+          <h1 className="my-4 mt-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            About me
+          </h1>
+          <div className="grid grid-cols-3 relative">
+            <p className="text-xl mb-3 font-normal text-gray-200 dark:text-gray-300 col-span-3">
+              I&apos;m a full-stack developer with more than 6 years of
+              experience in developing and designing web applications.
+              Participated in several large projects for banks and the
+              government, such as e-commerce websites, queue systems, analytic
+              dashboards, systems with a large database, and the ability for
+              signing documents. Created interactive and real-time UI with deep
+              difficulty logic. Made more optimizations for SEO and speed of
+              sites (web applications). Learned to choose suitable libraries and
+              technology for specific projects.
+            </p>
+          </div>
+        </section>
 
-        <div className="w-full">
-          <h2 className="dark:text-orange-400 text-4xl font-semibold">
+        <section className="w-full mb-4">
+          <h2 className="dark:text-orange-400 text-4xl font-semibold mb-3">
             Skills
           </h2>
           <Skills />
-          <div className="grid grid-cols-3 relative">
-            <div className="col-span-3 md:col-span-1">
-              <h3 className="dark:text-orange-400 text-2xl font-semibold">
-                Frontend
-              </h3>
-
-              <ul className="list-disc list-inside">
-                <li>React</li>
-                <li>Vue</li>
-                <li>Next.js</li>
-                <li>React Native</li>
-                <li>Redux</li>
-                <li>HTML</li>
-                <li>CSS</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        </section>
+        <section>
+          <h2 className="dark:text-orange-400 text-4xl font-semibold mb-3">
+            Expirience
+          </h2>
+        </section>
         <p className="text-xl mb-3 font-normal text-gray-700 dark:text-gray-400">
           My expertise spans a wide range of technologies, including JavaScript
           (TypeScript), Python, PHP, HTML, and Node.js. I&apos;m well-versed in

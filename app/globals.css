@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @media (prefers-color-scheme: dark) {
   .swiper-pagination-bullet {
     background: #fff !important;
@@ -10,4 +9,8 @@
   .swiper-pagination-bullet-active {
     background: blueviolet !important;
   }
+}
+
+.swiper-slide {
+  height: auto !important;
 }
