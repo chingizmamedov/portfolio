@@ -1,41 +1,70 @@
 import Container from "@components/Container";
+import Skills from "@components/Skills";
+import Image from "next/image";
 
 export default function AboutPage() {
   return (
-    <div className="bg-white dark:bg-gray-950 min-h-screen">
+    <div className="bg-white dark:bg-zinc-950 min-h-screen">
       <Container>
-        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        <h1 className="my-4 mt-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           About me
         </h1>
-        <p className="text-xl mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Hey there! I&apos;m Chingiz Mammadov, a seasoned software engineer with six
-          years of experience. I&apos;ve had the privilege of working with
-          prestigious companies like Nike, as well as government agencies and
-          banks. What truly excites me is crafting captivating user interfaces
-          enriched with beautiful animations. Throughout my career, I&apos;ve tackled
-          complex projects, delivering innovative solutions that push
-          boundaries.
-        </p>
+        <div className="grid grid-cols-3 relative">
+          <p className="text-xl mb-3 font-normal text-gray-200 dark:text-gray-300 col-span-3">
+            Hey there! I&apos;m Chingiz Mammadov, a seasoned software engineer
+            with six years of experience. I&apos;ve had the privilege of working
+            with prestigious companies like Nike, as well as government agencies
+            and banks. What truly excites me is crafting captivating user
+            interfaces enriched with beautiful animations. Throughout my career,
+            I&apos;ve tackled complex projects, delivering innovative solutions
+            that push boundaries.
+          </p>
+        </div>
+
+        <div className="w-full">
+          <h2 className="dark:text-orange-400 text-4xl font-semibold">
+            Skills
+          </h2>
+          <Skills />
+          <div className="grid grid-cols-3 relative">
+            <div className="col-span-3 md:col-span-1">
+              <h3 className="dark:text-orange-400 text-2xl font-semibold">
+                Frontend
+              </h3>
+
+              <ul className="list-disc list-inside">
+                <li>React</li>
+                <li>Vue</li>
+                <li>Next.js</li>
+                <li>React Native</li>
+                <li>Redux</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <p className="text-xl mb-3 font-normal text-gray-700 dark:text-gray-400">
           My expertise spans a wide range of technologies, including JavaScript
           (TypeScript), Python, PHP, HTML, and Node.js. I&apos;m well-versed in
           popular frameworks such as Next.js, Express.js, Nest.js, and APIs.
           When it comes to frontend development, I&apos;ve honed my skills in
           React.js and Vue.js, while also embracing testing with tools like
-          react-testing-library, Jest, enzyme, and Cypress. I&apos;m adept at working
-          with databases like DynamoDB, PostgreSQL, and MongoDB, and I&apos;m
-          well-versed in using Git for version control. Additionally, I&apos;m
-          familiar with cloud services like AWS (basics) and Firebase, and I&apos;ve
-          utilized visualization libraries like D3.js. In my diverse experience,
-          I&apos;ve contributed to various impactful projects.
+          react-testing-library, Jest, enzyme, and Cypress. I&apos;m adept at
+          working with databases like DynamoDB, PostgreSQL, and MongoDB, and
+          I&apos;m well-versed in using Git for version control. Additionally,
+          I&apos;m familiar with cloud services like AWS (basics) and Firebase,
+          and I&apos;ve utilized visualization libraries like D3.js. In my
+          diverse experience, I&apos;ve contributed to various impactful
+          projects.
         </p>
         <p className="text-xl mb-3 font-normal text-gray-700 dark:text-gray-400">
           From developing queue systems for banks and hospitals to creating
-          internal CMS solutions for companies, I&apos;ve also worked on building
-          robust online shopping web applications and secure payment systems for
-          government entities. My approach to software development revolves
-          around writing clear, scalable components that facilitate easy
-          debugging and maintenance. I believe in the power of selecting
+          internal CMS solutions for companies, I&apos;ve also worked on
+          building robust online shopping web applications and secure payment
+          systems for government entities. My approach to software development
+          revolves around writing clear, scalable components that facilitate
+          easy debugging and maintenance. I believe in the power of selecting
           meaningful names for variables, functions, and classes. Additionally,
           I prioritize optimizing code performance by considering the importance
           of Big O notation. Ready to bring your ideas to life? Let&apos;s

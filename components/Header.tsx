@@ -4,12 +4,17 @@ import Container from "./Container";
 export default function Header() {
   return (
     <header className="">
-      <nav className="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 p-4">
+      <nav className="border-gray-200 bg-gray-50 dark:bg-zinc-950 dark:border-gray-700 p-4">
         <Container>
           <a href="/" className="flex items-center">
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              C. Mammadov
-            </span>
+            <div className="flex flex-col items-start">
+              <span className="-mb-2 text-xs font-regular whitespace-nowrap dark:text-white">
+                Chingiz
+              </span>
+              <span className="text-md font-semibold whitespace-nowrap dark:text-orange-500">
+                Mammadov
+              </span>
+            </div>
           </a>
           <button
             data-collapse-toggle="navbar-solid-bg"
@@ -38,11 +43,14 @@ export default function Header() {
             id="navbar-solid-bg"
           >
             <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
-              <li>
-                <Link href="/about" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+              {/* <li>
+                <Link
+                  href="/about"
+                  className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >
                   About
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/blog"
