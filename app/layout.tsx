@@ -5,7 +5,120 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Chingiz Mammadov",
-  description: "Chingiz Mammadov's personal website",
+  description: `Chingiz Mammadov's personal website. I&apos;m a full-stack developer with more than 6 years of
+  experience in developing and designing web applications.
+  Participated in several large projects for banks and the
+  government, such as e-commerce websites, queue systems, analytic
+  dashboards, systems with a large database, and the ability for
+  signing documents. Created interactive and real-time UI with deep
+  difficulty logic. Made more optimizations for SEO and speed of
+  sites (web applications). Learned to choose suitable libraries and
+  technology for specific projects.`,
+  image: "/me.jpg",
+  keywords: [
+    "chingiz",
+    "mammadov",
+    "chingizm",
+    "chingizmammadov",
+    "chingizmammadov.com",
+    "chingizmammadov.me",
+    "chingizmammadov.dev",
+    "chingizmammadov.az",
+    "developer",
+    "full-stack",
+    "fullstack",
+    "full stack",
+    "full-stack developer",
+    "fullstack developer",
+    "full stack developer",
+    "front-end",
+    "frontend",
+    "front end",
+    "front-end developer",
+    "frontend developer",
+    "front end developer",
+  ],
+  colorScheme: "dark light",
+  siteUrl: "https://chingizmammadov.com",
+  siteName: "Chingiz Mammadov",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://chingizmammadov.com",
+    title: "Chingiz Mammadov",
+    description: `Chingiz Mammadov's personal website. I&apos;m a full-stack developer with more than 6 years of
+    experience in developing and designing web applications.
+    Participated in several large projects for banks and the
+    government, such as e-commerce websites, queue systems, analytic
+    dashboards, systems with a large database, and the ability for
+    signing documents. Created interactive and real-time UI with deep
+    difficulty logic. Made more optimizations for SEO and speed of
+    sites (web applications). Learned to choose suitable libraries and
+    technology for specific projects.`,
+    image: "/me.jpg",
+    site_name: "Chingiz Mammadov",
+    keywords: [
+      "chingiz",
+      "mammadov",
+      "chingizm",
+      "chingizmammadov",
+      "chingizmammadov.com",
+      "chingizmammadov.me",
+      "chingizmammadov.dev",
+      "chingizmammadov.az",
+      "developer",
+      "full-stack",
+      "fullstack",
+      "full stack",
+      "full-stack developer",
+      "fullstack developer",
+      "full stack developer",
+      "front-end",
+      "frontend",
+      "front end",
+      "front-end developer",
+      "frontend developer",
+      "front end developer",
+    ],
+  },
+  twitterCard: {
+    cardType: "summary_large_image",
+    site: "@Chingiz92MI",
+    title: "Chingiz Mammadov",
+    description: `Chingiz Mammadov's personal website. I&apos;m a full-stack developer with more than 6 years of
+    experience in developing and designing web applications.
+    Participated in several large projects for banks and the
+    government, such as e-commerce websites, queue systems, analytic
+    dashboards, systems with a large database, and the ability for
+    signing documents. Created interactive and real-time UI with deep
+    difficulty logic. Made more optimizations for SEO and speed of
+    sites (web applications). Learned to choose suitable libraries and
+    technology for specific projects.`,
+    image: "/me.jpg",
+    keywords: [
+      "chingiz",
+      "mammadov",
+      "chingizm",
+      "chingizmammadov",
+      "chingizmammadov.com",
+      "chingizmammadov.me",
+      "chingizmammadov.dev",
+      "chingizmammadov.az",
+      "developer",
+      "full-stack",
+      "fullstack",
+      "full stack",
+      "full-stack developer",
+      "fullstack developer",
+      "full stack developer",
+      "front-end",
+      "frontend",
+      "front end",
+      "front-end developer",
+      "frontend developer",
+      "front end developer",
+    ],
+  },
 };
 
 export default function RootLayout({
