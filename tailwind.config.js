@@ -7,6 +7,7 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/flowbite/**/*.js",
     "./public/**/*.html",
+    "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
@@ -17,5 +18,9 @@ module.exports = {
       },
     },
   },
-  plugins: [require("flowbite/plugin"), require("@tailwindcss/typography")],
+  plugins: [
+    require("flowbite/plugin"),
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/forms"),
+  ],
 };
