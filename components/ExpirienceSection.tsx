@@ -11,7 +11,7 @@ const data = [
   {
     company: "Jaxel",
     title: "Sr. Fullstack Developer",
-    time: "2022 - Present",
+    time: "02.2022 - 05.2022",
     responsibility: [
       `Participated in the development of a full-stack application using
           AppSync, NextJS, GraphQL, ApolloGraphQL, TypeScript, TailwindCSS,

@@ -38,9 +38,10 @@ export const metadata = {
     "frontend developer",
     "front end developer",
   ],
-  colorScheme: "dark light",
+  colorScheme: "dark",
   siteUrl: "https://chingizmammadov.com",
   siteName: "Chingiz Mammadov",
+  themeColor: "#D64682",
   openGraph: {
     type: "website",
     locale: "en_US",

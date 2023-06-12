@@ -76,7 +76,7 @@ export default function Footer() {
           </div>
           <div>
             <div className="text-xs text-black text-center p-1 mt-3">
-              © 2021 Chingiz Mamedov
+              © 2023 Chingiz Mamedov
               <div className="text-xs text-black text-center">
                 <a
                   href="https://www.linkedin.com/in/chingiz-mamedov/"
