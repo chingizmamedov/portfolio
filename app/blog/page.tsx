@@ -59,6 +59,16 @@ export default function BlogPage() {
   return (
     <div className="px-4">
       <Container>
+        <div className="h-screen w-screen flex items-center justify-center">
+          <h2 className="text-5xl">Coming soon...</h2>
+        </div>
+      </Container>
+    </div>
+  );
+
+  return (
+    <div className="px-4">
+      <Container>
         <div className="mb-3 flex flex-col">
           <div className="flex gap-2">
             {filters.map((filter) => (

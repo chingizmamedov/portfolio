@@ -6,7 +6,7 @@ type ContainerProps = {
 
 export default function Container({ children }: ContainerProps) {
   return (
-    <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+    <div className="w-full flex flex-wrap items-center justify-between mx-auto">
       {children}
     </div>
   );

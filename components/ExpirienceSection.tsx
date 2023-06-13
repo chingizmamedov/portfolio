@@ -6,12 +6,13 @@ import "swiper/css/pagination";
 import Container from "./Container";
 
 import "swiper/css";
+import Slider from "./FramerSlide";
 
 const data = [
   {
     company: "Jaxel",
     title: "Sr. Fullstack Developer",
-    time: "02.2022 - 05.2022",
+    time: "02.2022 - 05.2023",
     responsibility: [
       `Participated in the development of a full-stack application using
           AppSync, NextJS, GraphQL, ApolloGraphQL, TypeScript, TailwindCSS,
@@ -130,54 +131,15 @@ const data = [
 
 export const ExpirienceSection = () => {
   return (
-    <section className="mb-12 w-full px-3 z-10 bg-black relative">
+    <section className="flex pb-12 pt-10 w-screen px-3 z-20 bg-black relative">
       <Container>
         <div className="rounded-xl mx-auto w-full">
           <div className="flex justify-between item-center mb-3">
             <h2 className="text-3xl font-bold text-violet-100 mb-3">
               Expirience
             </h2>
-            <div className="hidden gap-2">
-              <button className="bg-violet-300 rounded-full p-2 w-10 h-10">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g id="icon/action/trending_flat_24px">
-                    <path
-                      id="icon/action/trending_flat_24px_2"
-                      d="M2.74551 12.35L5.53551 15.14C5.85551 15.46 6.39551 15.24 6.39551 14.79V13L20.3955 13C20.9455 13 21.3955 12.55 21.3955 12C21.3955 11.45 20.9455 11 20.3955 11L6.39551 11V9.20997C6.39551 8.75997 5.85551 8.53997 5.54551 8.85997L2.75551 11.65C2.55551 11.84 2.55551 12.16 2.74551 12.35V12.35Z"
-                      fill="black"
-                      fill-opacity="0.54"
-                    />
-                  </g>
-                </svg>
-              </button>
-              <button className="bg-violet-300 rounded-full p-2 w-10 h-10">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="transform rotate-180"
-                >
-                  <g id="icon/action/trending_flat_24px">
-                    <path
-                      id="icon/action/trending_flat_24px_2"
-                      d="M2.74551 12.35L5.53551 15.14C5.85551 15.46 6.39551 15.24 6.39551 14.79V13L20.3955 13C20.9455 13 21.3955 12.55 21.3955 12C21.3955 11.45 20.9455 11 20.3955 11L6.39551 11V9.20997C6.39551 8.75997 5.85551 8.53997 5.54551 8.85997L2.75551 11.65C2.55551 11.84 2.55551 12.16 2.74551 12.35V12.35Z"
-                      fill="black"
-                      fill-opacity="0.54"
-                    />
-                  </g>
-                </svg>
-              </button>
-            </div>
           </div>
-          <div className="flex ">
+          <div className="flex">
             <div className="block w-full expirience-swiper">
               <Swiper
                 modules={[Pagination]}

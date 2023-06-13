@@ -131,9 +131,9 @@ const AboutSection = () => {
   return (
     <section className="relative z-10 bg-black" id="about-ection">
       <Container>
-        <div className="mx-auto h-screen w-screen grid grid-cols-2">
-          <div className="flex gap-3 flex-col lg:flex-row span-col-1 relative p-5">
-            <div className="absolute inset-0 h-full w-full justify-start items-start">
+        <div className="mx-auto min-h-screen w-screen grid grid-cols-1 md:grid-cols-2">
+          <div className="flex h-screen md:h-full sticky md:relative inset-0">
+            <div className="inset-0 h-full w-full justify-start items-start">
               <div className="h-full w-full overflow-hidden shadow-lg relative">
                 <Image
                   src="/me.jpg"
@@ -144,8 +144,7 @@ const AboutSection = () => {
               </div>
             </div>
           </div>
-
-          <div className="col-span-1 p-7 flex items-center justify-center">
+          <div className="col-span-1 p-7 flex items-center justify-center z-10 bg-black h-screen md:h-full">
             <div>
               <a href="#about" className="z-20">
                 <h2 className="text-4xl font-bold text-violet-200 mb-3">
