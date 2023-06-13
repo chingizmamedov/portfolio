@@ -130,7 +130,7 @@ const data = [
 
 export const ExpirienceSection = () => {
   return (
-    <section className="mb-12 w-full px-3">
+    <section className="mb-12 w-full px-3 z-10 bg-black relative">
       <Container>
         <div className="rounded-xl mx-auto w-full">
           <div className="flex justify-between item-center mb-3">
