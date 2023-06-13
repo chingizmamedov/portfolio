@@ -131,11 +131,11 @@ const data = [
 
 export const ExpirienceSection = () => {
   return (
-    <section className="flex pb-12 pt-10 w-screen px-3 z-20 bg-black relative">
+    <section className="flex pb-12 pt-10 w-screen px-3 z-20 bg-white dark:bg-black relative">
       <Container>
         <div className="rounded-xl mx-auto w-full">
           <div className="flex justify-between item-center mb-3">
-            <h2 className="text-3xl font-bold text-violet-100 mb-3">
+            <h2 className="text-3xl font-bold text-violet-500 dark:text-violet-100 mb-3">
               Expirience
             </h2>
           </div>

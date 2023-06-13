@@ -11,7 +11,7 @@ import Header from "@components/Header";
 const BackgrounAnimation = () => {
   return (
     <div className="absolute -z-10 top-0 left-0 right-0 bottom-0 w-screen h-screen flex items-center justify-center mt-20 lg:mt-0">
-      <div className="absolute w-full h-full backdrop-blur-sm bg-zinc-950/90 z-20 top-0  right-0" />
+      <div className="absolute w-full h-full backdrop-blur-sm dark:bg-zinc-950/90 z-20 top-0  right-0" />
       <motion.div
         className="relative w-40 h-40"
         style={{ filter: "url(#gooey) blur(5px)" }}
@@ -75,28 +75,31 @@ const TopSection = () => {
       <div className="w-full flex items-center justify-center">
         <div className="">
           <h1 className="flex flex-col">
-            <span className="text-gray-100 text-5xl">Chingiz</span>
-            <span className="text-gray-100 text-5xl md:text-7xl">Mammadov</span>
+            <span className="text-black dark:text-gray-100 text-5xl">
+              Chingiz
+            </span>
+            <span className="text-black dark:text-gray-100 text-5xl md:text-7xl">
+              Mammadov
+            </span>
           </h1>
-          <h2 className="text-gray-200 text-4xl mb-3">
+          <h2 className="text-black dark:text-gray-200 text-4xl mb-3">
             Software <span>Engineer</span>
           </h2>
           <div onClick={handleClickScroll}>
-            <button className="rounded-full bg-white text-black py-2 px-3 flex items-center text-2xl font-bold">
+            <button className="rounded-full bg-slate-800 dark:bg-white text-white dark:text-black py-2 px-3 flex items-center text-2xl font-bold">
               <span className="mr-1">About</span>
               <svg
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
-                className="rotate-180"
-                fill="#000"
+                className="rotate-180 fill-white dark:fill-black"
               >
                 <g id="icon/action/trending_flat_24px">
                   <path
                     id="icon/action/trending_flat_24px_2"
                     d="M2.74551 12.35L5.53551 15.14C5.85551 15.46 6.39551 15.24 6.39551 14.79V13L20.3955 13C20.9455 13 21.3955 12.55 21.3955 12C21.3955 11.45 20.9455 11 20.3955 11L6.39551 11V9.20997C6.39551 8.75997 5.85551 8.53997 5.54551 8.85997L2.75551 11.65C2.55551 11.84 2.55551 12.16 2.74551 12.35V12.35Z"
-                    fill="#000"
+                    className="fill-white dark:fill-black"
                   />
                 </g>
               </svg>
@@ -129,7 +132,7 @@ const TopSection = () => {
 
 const AboutSection = () => {
   return (
-    <section className="relative z-10 bg-black" id="about-ection">
+    <section className="relative z-10 bg-white dark:bg-black" id="about-ection">
       <Container>
         <div className="mx-auto min-h-screen w-screen grid grid-cols-1 md:grid-cols-2">
           <div className="flex h-screen md:h-full sticky md:relative inset-0">
@@ -144,14 +147,14 @@ const AboutSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-1 p-7 flex items-center justify-center z-10 bg-black h-screen md:h-full">
+          <div className="col-span-1 p-7 flex items-center justify-center z-10 bg-white dark:bg-black h-screen md:h-full">
             <div>
               <a href="#about" className="z-20">
-                <h2 className="text-4xl font-bold text-violet-200 mb-3">
+                <h2 className="text-4xl font-bold text-violet-400 dark:text-violet-200 mb-3">
                   About
                 </h2>
               </a>
-              <p className="font-bold text-xl col-span-1 text-gray-300">
+              <p className="font-bold text-xl col-span-1 text-black dark:text-gray-300">
                 I&apos;m a full-stack developer with more than 6 years of
                 experience in developing and designing web applications.
                 Participated in several large projects for banks and the

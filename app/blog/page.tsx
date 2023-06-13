@@ -60,7 +60,9 @@ export default function BlogPage() {
     <div className="px-4">
       <Container>
         <div className="h-screen w-screen flex items-center justify-center">
-          <h2 className="text-5xl">Coming soon...</h2>
+          <h2 className="text-5xl text-black dark:text-white">
+            Coming soon...
+          </h2>
         </div>
       </Container>
     </div>

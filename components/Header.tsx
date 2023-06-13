@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="shadow-md w-full z-40 sticky top-0 left-0 bg-black/75 backdrop-blur-sm">
+    <header className="shadow-md w-full z-40 sticky top-0 left-0 bg-white dark:bg-black/75 backdrop-blur-sm">
       <nav className=" p-5">
         <Container>
           <a href="/" className="flex items-center">
